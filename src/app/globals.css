@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "IRANSansX";
+  font-weight: 900;
+  font-display: swap;
+  src: url("../../public/assets/fonts/IRANSansXFaNum-Medium.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "IRANSansX";
+  font-weight: 700;
+  font-display: swap;
+  src: url("../../public/assets/fonts/IRANSansXFaNum-Regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "IRANSansX";
+  font-weight: 200;
+  font-display: swap;
+  src: url("../../public/assets/fonts/IRANSansXFaNum-DemiBold.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-family: "IRANSansX";
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../public/assets/fonts/IRANSansXFaNum-Bold.woff2")
+    format("woff2");
+}
+
+* {
+  font-family: "IRANSansX" !important;
+}
+
+.customModal .ant-modal-content {
+  padding: 0px !important;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  /* height: 6px; */
+  background-color: #cfc8c8;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 1px;
+}
